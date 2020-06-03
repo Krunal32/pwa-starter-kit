@@ -39,7 +39,7 @@ class MyView1 extends PageViewElement {
            Sprinkle Green Chutney<br>
            Sprinkle Red Chutney<br>
            Sprinkle Garlic Chutney<br>
-           Top it with Thin Sev, Chopped Cilantro, Masala Chana Dal, & Pomegranate<br>
+           Top it. with Thin Sev, Chopped Cilantro, Masala Chana Dal, & Pomegranate<br>
         </p>
       </section
       <section>
