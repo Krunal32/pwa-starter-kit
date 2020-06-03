@@ -24,16 +24,26 @@ class MyView1 extends PageViewElement {
   render() {
     return html`
       <section>
-        <h2>Static page</h2>
-        <p>This is a text-only page.</p>
-        <p>It doesn't do anything other than display some static text.</p>
+        <h2>Welcome To Lucky DaDhaba</h2>
       </section>
       <section>
-        <h2>Welcome</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac nisi orci. Maecenas sollicitudin diam in diam efficitur cursus. Morbi sollicitudin in justo tincidunt placerat. Integer tincidunt elementum nisi, eu ornare dolor lacinia eget. Fusce pulvinar massa eget odio placerat, commodo molestie ipsum tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse porttitor id purus eu cursus. Suspendisse arcu nulla, mattis vel hendrerit et, malesuada a elit. Nam at diam ornare, aliquet est sed, malesuada metus. Cras nec enim vel nibh tincidunt euismod ut et enim. Etiam pharetra eros in sodales iaculis. Duis sagittis urna et cursus mollis. Cras tempor rutrum est. Praesent sollicitudin ligula at laoreet placerat. Praesent tortor dui, semper in sapien non, pharetra luctus turpis.</p>
+        <h2>Todays speical</h2>
+        <h2 style={text-align: center}>Khichiya Papdi Chaat</h2>
       </section>
       <section>
-        <p>Vestibulum at est ex. Aenean id ligula id nibh dictum laoreet. Etiam non semper erat. Pellentesque eu justo rhoncus diam vulputate facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat metus ex, vel fringilla massa tincidunt sit amet. Nunc facilisis bibendum tristique. Mauris commodo, dolor vitae dapibus fermentum, odio nibh viverra lorem, eu cursus diam turpis et sapien. Nunc suscipit tortor a ligula tincidunt, id hendrerit tellus sollicitudin.</p>
+        <p>Roast the Khichiya Papdi on a coal grill or a gas <br>
+           Brush it with the Masala Oil <br>
+           Place it on a plate and break it in to medium sized pieces <br>
+           Now add all the chopped ingredients (Onion, Tomato, Green Mango)<br>
+           Sprinkle Chat Masala<br>
+           Sprinkle Green Chutney<br>
+           Sprinkle Red Chutney<br>
+           Sprinkle Garlic Chutney<br>
+           Top it with Thin Sev, Chopped Cilantro, Masala Chana Dal, & Pomegranate<br>
+        </p>
+      </section
+      <section>
+
       </section>
     `;
   }
