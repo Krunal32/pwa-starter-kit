@@ -41,8 +41,20 @@ class MyView1 extends PageViewElement {
            Sprinkle Garlic Chutney<br>
            Top it. with Thin Sev, Chopped Cilantro, Masala Chana Dal, & Pomegranate<br>
         </p>
-      </section
+      </section>
       <section>
+              <div>
+                <div class="table-container">
+                    <div class="header-row">
+                        <div class="flex">
+                            <div class="header-cell" style="width: 125px">Agent Number</div>
+                            <div class="flex-grow-1 header-cell">Agent Name</div>
+                            <div class="header-cell">Commission</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
 
       </section>
     `;

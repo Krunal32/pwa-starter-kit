@@ -15,7 +15,10 @@ export const SharedStyles = css`
     display: block;
     box-sizing: border-box;
   }
-
+  img {
+    width: 100%;
+    height: auto;
+  }
   section {
     padding: 24px;
     background: var(--app-section-odd-color);
@@ -55,4 +58,63 @@ export const SharedStyles = css`
     font-size: 30px;
     line-height: 64px;
   }
+  
+  .grey-box {
+         background-color: #F5F5F5;
+    }
+    
+  .padding-15 {
+        padding: 15px;
+    }
+    
+  .ribbon {
+    font-size: 16px !important;    
+     width: 50%;
+     position: relative;
+     background: #add8e6;
+     color: #fff;
+     text-align: center;
+     padding: 1em 2em; /* Adjust to suit */
+     margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+    }
+    .ribbon:before, .ribbon:after {
+     content: "";
+     position: absolute;
+     display: block;
+     bottom: -1em;
+     border: 1.5em solid #986794;
+     z-index: -1;
+    }
+    .ribbon:before {
+     left: -2em;
+     border-right-width: 1.5em;
+     border-left-color: transparent;
+    }
+    .ribbon:after {
+     right: -2em;
+     border-left-width: 1.5em;
+     border-right-color: transparent;
+    }
+    .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+     content: "";
+     position: absolute;
+     display: block;
+     border-style: solid;
+     border-color: #804f7c transparent transparent transparent;
+     bottom: -1em;
+    }
+    .ribbon .ribbon-content:before {
+     left: 0;
+     border-width: 1em 0 0 1em;
+    }
+    .ribbon .ribbon-content:after {
+     right: 0;
+     border-width: 1em 1em 0 0;
+    }
+#image-container {
+    background: url(http://pic2.ooopic.com/11/26/30/31b1OOOPIC48.jpg) left top no-repeat;
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+    width: 300px;
+    height: 300px;
+}
 `;
